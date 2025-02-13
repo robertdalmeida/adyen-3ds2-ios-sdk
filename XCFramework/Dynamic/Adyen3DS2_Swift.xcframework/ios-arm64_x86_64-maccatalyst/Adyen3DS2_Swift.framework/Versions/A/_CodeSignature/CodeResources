@@ -42,7 +42,7 @@
 		</data>
 		<key>Resources/Adyen3DS2.bundle/Info.plist</key>
 		<data>
-		3PvIEnv2lUOv/vwSQQORXHG3T4U=
+		gv6bOFNoH0yAxscgy3BAof+1tT8=
 		</data>
 		<key>Resources/Adyen3DS2.bundle/MultiSelectionIndicator.png</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Resources/Adyen3DS2.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		CzxQ0hJRtV//0Hu57lV29ID4KCg=
+		XFyblRt3eqMhSZsYpPu+sBUn6Sw=
 		</data>
 		<key>Resources/Adyen3DS2.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -90,15 +90,15 @@
 		</data>
 		<key>Resources/Adyen3DS2.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		+x7hyeTc1SwuG3Lqqb1u+zNVKBQ=
+		mT2oXSljZ8Yhs1rT6uikgG7KFC4=
 		</data>
 		<key>Resources/Adyen3DS2.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		pwyXJ5tvqSBGYA9T6E2inrP33sg=
+		dgx+SpiDDDnrWF7X61PoS+kPFo4=
 		</data>
 		<key>Resources/Adyen3DS2.bundle/_CodeSignature/CodeSignature</key>
 		<data>
-		yAmQfCwuoL/xSymLksFkO7bSHDA=
+		X29LxalB/pprB4Dj1AiLDNkeB4k=
 		</data>
 		<key>Resources/Adyen3DS2.bundle/macho.hash</key>
 		<data>
@@ -106,11 +106,11 @@
 		</data>
 		<key>Resources/Adyen3DS2.bundle/macho.hash.sha256</key>
 		<data>
-		/EIKaY7WKzjpqksZ4RXe07IZlUo=
+		Wa+EF+kZ6drAUN12uPDYn8lo258=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		XtRirNfs2PyMefNWyJobr5bvh1Y=
+		ypiZ6psH13A8d6Wyy4sVL75lcYc=
 		</data>
 		<key>Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -141,14 +141,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uJOnvZjo76SVpQESPfWlJMLesdOxvEwNiNQMn7YzFBc=
+			lXWhsnZOBULpRyqQLGtxs2G3TeflwJWpmcvE4w3JhL0=
 			</data>
 		</dict>
 		<key>Modules/Adyen3DS2_Swift.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			57zrMsbN9tov6XT3+9rAHMZH8c+5g04fJWFMTGZKYAI=
+			TrOQBht3xE17cqpmAA7td+Fedbn5s8YHL8seA1J+Vtw=
 			</data>
 		</dict>
 		<key>Modules/Adyen3DS2_Swift.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
@@ -162,28 +162,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			57zrMsbN9tov6XT3+9rAHMZH8c+5g04fJWFMTGZKYAI=
+			TrOQBht3xE17cqpmAA7td+Fedbn5s8YHL8seA1J+Vtw=
 			</data>
 		</dict>
 		<key>Modules/Adyen3DS2_Swift.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			92fSoI06nQpRdaN5tRnc5U6QfTx+lE4a+nhiUXahlCk=
+			rj6vtR77zkz/NxcQS58Z02nlHrF/+t50hBcQ6tSwgyI=
 			</data>
 		</dict>
 		<key>Modules/Adyen3DS2_Swift.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7aF0v4WI93jerPh/DfbrE5JvT1HgW6/QZbWd4JIWAZs=
+			E1gndcARkxEJHHYmdv9t1w1J9iEYOemjrtKN4r2OPcU=
 			</data>
 		</dict>
 		<key>Modules/Adyen3DS2_Swift.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FZA7FUMuHfXcdvKRIxCbdC/EA1dsH/eVESV7OuPhTPI=
+			uzh8YNI7V98y5twPNSLSkek183bHCh4nibVVpFURycQ=
 			</data>
 		</dict>
 		<key>Modules/Adyen3DS2_Swift.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -197,14 +197,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FZA7FUMuHfXcdvKRIxCbdC/EA1dsH/eVESV7OuPhTPI=
+			uzh8YNI7V98y5twPNSLSkek183bHCh4nibVVpFURycQ=
 			</data>
 		</dict>
 		<key>Modules/Adyen3DS2_Swift.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6YpPolf+t405c2UatSURKkTf3wm6jDGAsXrrEi3uhyw=
+			xhFiNQ0VB3B3V/mrFphQz/PG255AWjAg2GzBWkxCnPc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -281,7 +281,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TynKtt4TQ/HLmH/YYI+PdpXDxGKkFtaqq0QVpssfjzU=
+			OnGrRdzCYZ1aI+h/HGFFTdDCLkqFtVmNHA2PEDo466s=
 			</data>
 		</dict>
 		<key>Resources/Adyen3DS2.bundle/MultiSelectionIndicator.png</key>
@@ -351,7 +351,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4PMc63Ed58lbjjStplz6JD6tR0P50xLXe71MI828W5s=
+			OskF7fF4lslSsO3S/TNk2rwpq/31hCtXliRFACFerwA=
 			</data>
 		</dict>
 		<key>Resources/Adyen3DS2.bundle/_CodeSignature/CodeRequirements</key>
@@ -365,21 +365,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			01usQDeAWSI4bRTGZtnYgTBzzU4X7RSbnbdIAWj8JjU=
+			QtjknrzKgJTclE09IRU1pzxXe5WQVEjmEKf2Y43flYo=
 			</data>
 		</dict>
 		<key>Resources/Adyen3DS2.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wFZLUfg7iLb66v26t++DfxHsjrm3pw4aBbEQzn151r0=
+			w7uT3EtoYPIx3a9iUVqVLRZsSPWClIUBuA+bc79RovA=
 			</data>
 		</dict>
 		<key>Resources/Adyen3DS2.bundle/_CodeSignature/CodeSignature</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n7bkYPTb2r7hhwB3h5T1awWn+ba29VodQbO8ENA5MdE=
+			41B4XaZP08QQbXSZH/i6NF8VVKsrgWAZf0Gdvi87Dd0=
 			</data>
 		</dict>
 		<key>Resources/Adyen3DS2.bundle/macho.hash</key>
@@ -393,14 +393,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vqLH6ytA5cu99PtaRaU/vn3nmAF4xwM8ssUcqCqZMbE=
+			lBl4nXO2G5Y6WIvVNwdIP32PTtLnWxUVUuTeOREEjWw=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/9EMvuoTl4jel4LoPejD1k1iZo/RiGzH+oemjDe50nE=
+			3dJ8tkJbW9Iavt8vMKXEMjl6f0dQPeyYFkhnCPNnkjg=
 			</data>
 		</dict>
 		<key>Resources/PrivacyInfo.xcprivacy</key>

@@ -473,7 +473,9 @@ extension Adyen3DS2_Swift.LegacyInterface {
     final public let sdkTransactionIdentifier: Swift.String
     final public let sdkReferenceNumber: Swift.String
     final public let sdkEphemeralPublicKey: Swift.String
-    final public let messageVersion: Swift.String
+    final public var messageVersion: Swift.String {
+      get
+    }
     @objc deinit
   }
 }
