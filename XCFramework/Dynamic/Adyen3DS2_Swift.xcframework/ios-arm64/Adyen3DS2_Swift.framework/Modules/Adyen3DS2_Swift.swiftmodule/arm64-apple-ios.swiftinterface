@@ -34,6 +34,8 @@ extension Adyen3DS2_Swift.LegacyInterface {
     @objc deinit
   }
 }
+extension LocalAuthentication.LAContext : @unchecked Swift.Sendable {
+}
 public enum WarningSeverity : Swift.Int, Swift.Equatable, Swift.Sendable {
   case low
   case medium
@@ -44,12 +46,18 @@ public enum WarningSeverity : Swift.Int, Swift.Equatable, Swift.Sendable {
     get
   }
 }
-public struct Warning : Swift.Equatable, Swift.Sendable {
+public struct Warning : Swift.Sendable, Swift.Equatable {
   public let identifier: Swift.String
   public let message: Swift.String
   public let severity: Adyen3DS2_Swift.WarningSeverity
   public init(identifier: Swift.String, message: Swift.String, severity: Adyen3DS2_Swift.WarningSeverity)
   public static func == (a: Adyen3DS2_Swift.Warning, b: Adyen3DS2_Swift.Warning) -> Swift.Bool
+}
+extension Adyen3DS2_Swift.Warning : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public struct InfoAppearance : Adyen3DS2_Swift.Appearance {
   public var font: UIKit.UIFont
@@ -108,7 +116,7 @@ extension Adyen3DS2_Swift.LegacyInterface {
     @objc deinit
   }
 }
-public protocol SecurityWarningsDelegate : AnyObject, Swift.Sendable {
+public protocol SecurityWarningsDelegate : AnyObject {
   @_Concurrency.MainActor func securityWarningsFound(_ warnings: [Adyen3DS2_Swift.Warning])
 }
 public struct AuthenticationRequestParameters : Swift.Codable, Swift.Equatable, Swift.Sendable {
@@ -360,6 +368,20 @@ public struct NavigationBarAppearance : Adyen3DS2_Swift.Appearance {
   public var textColor: UIKit.UIColor
   public init(font: UIKit.UIFont = UIFont.systemFont(ofSize: 17, weight: .semibold), textColor: UIKit.UIColor = UIColor.Adyen.labelColor, title: Swift.String? = nil, cancelButtonTitle: Swift.String? = nil, backgroundColor: UIKit.UIColor? = nil)
 }
+public protocol _LoadingIndicator {
+  func show(completion: @escaping @Sendable () -> Swift.Void)
+  func hide(completion: @escaping @Sendable () -> Swift.Void)
+}
+public protocol _ImageSource : Swift.Sendable {
+  func image() async -> UIKit.UIImage?
+}
+public struct _ClosureImageProvider : Adyen3DS2_Swift._ImageSource {
+  public init(closure: @escaping @Sendable () -> UIKit.UIImage?)
+  public func image() async -> UIKit.UIImage?
+}
+@_Concurrency.MainActor public enum _LoadingIndicatorProvider {
+  @_Concurrency.MainActor public static func _loadingIndicator(imageSource: (any Adyen3DS2_Swift._ImageSource)? = nil, appearanceConfiguration: Adyen3DS2_Swift.AppearanceConfiguration, presentingViewController: UIKit.UIViewController) -> any Adyen3DS2_Swift._LoadingIndicator
+}
 @_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class Transaction {
   @_Concurrency.MainActor final public var authenticationRequestParameters: Adyen3DS2_Swift.AuthenticationRequestParameters {
     get throws
@@ -574,6 +596,7 @@ extension Adyen3DS2_Swift.AppearanceButtonType : Swift.Equatable {}
 extension Adyen3DS2_Swift.AppearanceButtonType : Swift.Hashable {}
 extension Adyen3DS2_Swift.ErrorType : Swift.Equatable {}
 extension Adyen3DS2_Swift.ErrorType : Swift.Hashable {}
+extension Adyen3DS2_Swift._LoadingIndicatorProvider : Swift.Sendable {}
 extension Adyen3DS2_Swift.Transaction : Swift.Sendable {}
 @available(*, deprecated, message: "This will not be supported in future versions. Use WarningSeverity.")
 extension Adyen3DS2_Swift.ADYWarningSeverity : Swift.Equatable {}
